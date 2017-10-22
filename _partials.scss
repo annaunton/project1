@@ -1,0 +1,38 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+/*===VARIABLES COLORS===*/
+$basic-color: #313332;
+$basic-color2: #fff;
+$hover-color: #00C5E8;
+$slidshow-button: #807F7D;
+$p-color: #B1B1B1;
+$footer-color: #252726;
+
+/*===EXTEND CLASSES===*/
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+.fit-img {
+	width: 100%;
+	display: block;
+	object-fit: cover;
+}
+/*===MIXIN===*/
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+@mixin column-count($column) {
+	column-count: $column;
+	-webkit-column-count: $column; /* Chrome, Safari, Opera */
+	-moz-column-count: $column; /* Firefox */
+}
+@mixin column-span($span) {
+	-webkit-column-span: $span; /* Chrome, Safari, Opera */
+	column-span: $span;
+}
