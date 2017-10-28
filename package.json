@@ -1,0 +1,29 @@
+{
+  "name": "Project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annaunton/repo1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annaunton/repo1/issues"
+  },
+  "homepage": "https://github.com/annaunton/repo1#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "dependencies": {
+    "imagemin-mozjpeg": "^6.0.0"
+  }
+}
