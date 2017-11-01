@@ -19,7 +19,7 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif; }
 
-/*===CONTAINER SASS===*/
+/*===CONTAINER===*/
 .container {
   width: 100%;
   max-width: 1200px;
@@ -39,7 +39,7 @@ h1, h3, h4 {
   float: left;
   box-sizing: border-box; }
 
-/*===HEADER SASS===*/
+/*===HEADER===*/
 header {
   background: #313332; }
   header nav img {
@@ -74,7 +74,7 @@ nav input[type="checkbox"] + label {
   cursor: pointer;
   font-size: 25px; }
 
-/*===HERO SASS===*/
+/*===HERO===*/
 .hero {
   height: 350px;
   width: 100%;
@@ -117,7 +117,7 @@ nav input[type="checkbox"] + label {
       .hero .slideshow button:focus {
         outline: none; }
 
-/*===SECTION BENEFITS SASS===*/
+/*===SECTION BENEFITS===*/
 .benefits [class*='col-'] {
   min-height: 1px;
   padding: 0 70px; }
@@ -141,13 +141,13 @@ nav input[type="checkbox"] + label {
 .benefits p {
   color: #B1B1B1; }
 
-/*===SECTION FEATURED SASS===*/
+/*===SECTION FEATURED===*/
 .featured p {
   color: #B1B1B1;
   max-width: 900px;
   margin: 0 auto; }
 
-/*===SECTION GALLERY SASS===*/
+/*===SECTION GALLERY===*/
 .gallery-item {
   position: relative; }
   .gallery-item img {
@@ -181,7 +181,7 @@ nav input[type="checkbox"] + label {
   .layer i:nth-of-type(2) {
     float: right; }
 
-/*===SECTION STAFF SASS ===*/
+/*===SECTION STAFF ===*/
 .staff .gallery-item {
   width: 16vw;
   height: 16vw;
@@ -208,7 +208,7 @@ nav input[type="checkbox"] + label {
   width: auto;
   font-weight: bold; }
 
-/*===SECTION PROMO SASS===*/
+/*===SECTION PROMO===*/
 .promo {
   background: #ccc url(//placehold.it/1000x1000) center/cover no-repeat; }
   .promo [class*='col-'] {
@@ -242,7 +242,7 @@ nav input[type="checkbox"] + label {
     border-radius: 10% 10% 0 0;
     border-bottom: none; }
 
-/*===NUMBERS SASS===*/
+/*===NUMBERS===*/
 .numbers [class*='col-'] {
   min-height: 1px; }
   .numbers [class*='col-'] p:nth-of-type(1) {
@@ -256,7 +256,7 @@ nav input[type="checkbox"] + label {
     font-weight: bold;
     margin-top: 0; }
 
-/*===FOOTER SASS===*/
+/*===FOOTER===*/
 .footer {
   color: #fff;
   background: #313332; }

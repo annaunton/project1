@@ -22,8 +22,5 @@
     "grunt-contrib-imagemin": "^2.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^2.0.0"
-  },
-  "dependencies": {
-    "imagemin-mozjpeg": "^6.0.0"
   }
 }
