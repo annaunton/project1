@@ -1,10 +1,11 @@
-﻿@import 'partials';/*===BODY===*/
+﻿@import 'partials';
+/*===BODY===*/
 body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 }
 
-/*===CONTAINER SASS===*/
+/*===CONTAINER===*/
 .container {
 	width: 100%;
 	max-width: 1200px;
@@ -13,7 +14,7 @@ body {
 section {
 	.container {
 		margin: 50px auto;
-		text-align: center;	
+		text-align: center;
 	}
 }
 
@@ -21,7 +22,7 @@ section {
  h1, h3, h4 {
  	text-transform: uppercase;
  }
- 
+
  /*===CLEARFIX===*/
 .row:before,
 .row:after {
@@ -33,7 +34,7 @@ section {
 	float: left;
 	box-sizing: border-box;
 }
-/*===HEADER SASS===*/
+/*===HEADER===*/
 header {
 	background: $basic-color;
 	nav {
@@ -42,7 +43,7 @@ header {
 			@extend .clearfix;
 		}
 		img {
-			padding-top: 10px;	
+			padding-top: 10px;
 		}
 		ul {
 			list-style-type: none;
@@ -58,7 +59,7 @@ header {
 					color: $basic-color2;
 					text-decoration: none;
 					text-transform: uppercase;
-					font-weight: bold;	
+					font-weight: bold;
 				}
 				&:hover a {
 					color: $hover-color;
@@ -81,11 +82,11 @@ nav input[type="checkbox"] + label {
 	cursor: pointer;
 	font-size: 25px;
 }
-/*===HERO SASS===*/
+/*===HERO===*/
 .hero {
 	height: 350px;
 	width: 100%;
-	position: relative;	
+	position: relative;
 	img {
 		@extend .fit-img;
 		height: 350px;
@@ -102,7 +103,7 @@ nav input[type="checkbox"] + label {
 		h1 {
 			&::first-line {
 				font-family: 'Open Sans Condensed', sans-serif;
-				font-weight: 300;		
+				font-weight: 300;
 			}
 		}
 	}
@@ -126,12 +127,12 @@ nav input[type="checkbox"] + label {
 				border: none;
 			}
 			&:focus {
-				outline:none;				
+				outline:none;
 			}
 		}
 	}
 }
-/*===SECTION BENEFITS SASS===*/
+/*===SECTION BENEFITS===*/
 .benefits {
 	[class*='col-'] {
 		min-height: 1px;
@@ -159,15 +160,15 @@ nav input[type="checkbox"] + label {
 		color: $p-color;
 	}
 }
-/*===SECTION FEATURED SASS===*/
+/*===SECTION FEATURED===*/
 .featured {
 	p {
 		color: $p-color;
 		max-width: 900px;
-		margin: 0 auto;		
+		margin: 0 auto;
 	}
 }
-/*===SECTION GALLERY SASS===*/
+/*===SECTION GALLERY===*/
 .gallery-item {
 	position: relative;
 	img {
@@ -210,7 +211,7 @@ nav input[type="checkbox"] + label {
 		}
 	}
 }
-/*===SECTION STAFF SASS ===*/
+/*===SECTION STAFF ===*/
 .staff {
 	.gallery-item {
 		width: 16vw;
@@ -235,14 +236,14 @@ nav input[type="checkbox"] + label {
 		font-weight: bold;
 	}
 }
-/*===SECTION PROMO SASS===*/
+/*===SECTION PROMO===*/
 .promo {
 	background: #ccc url(//placehold.it/1000x1000) center/cover no-repeat;
 	[class*='col-'] {
 		min-height: 1px;
 	}
 	.promo-text {
-		padding: 50px 70px;	
+		padding: 50px 70px;
 	}
 	h1 {
 		text-align: center;
@@ -268,7 +269,7 @@ nav input[type="checkbox"] + label {
 		}
 	}
 }
-/*===NUMBERS SASS===*/
+/*===NUMBERS===*/
 .numbers {
 	[class*='col-'] {
 		min-height: 1px;
@@ -287,9 +288,9 @@ nav input[type="checkbox"] + label {
 			}
 		}
 	}
-	
+
 }
-/*===FOOTER SASS===*/
+/*===FOOTER===*/
 .footer {
 	color: $basic-color2;
 	background: $basic-color;
@@ -385,10 +386,10 @@ nav input[type="checkbox"] + label {
 	.numbers [class*='col-offset-2'] {
 		margin-left: 0%;
 	}
-	
+
 	h3:after {
   		width: 40%;
-  
+
 	}
 	.footer [class*='col-4'] {
 		float: none;
@@ -397,7 +398,7 @@ nav input[type="checkbox"] + label {
 }
 
 @media (max-width: 768px) {
-	
+
 	header>nav>ul {
 		float: none;
 		text-align: center;
@@ -430,10 +431,10 @@ nav input[type="checkbox"] + label {
 	}
 	.promo .promo-picture img {
 		position: static;
-		margin-top: 50px;	
+		margin-top: 50px;
 	}
 	.promo p {
-		column-count: 1;	
+		column-count: 1;
 	}
 	.col-s-0 {width: 0;}
  	.col-s-1 {width: 8.33%;}
@@ -453,5 +454,3 @@ nav input[type="checkbox"] + label {
 		max-width: none;
 	}
 }
-
-
