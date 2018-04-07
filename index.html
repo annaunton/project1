@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Food Photography</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="https://use.fontawesome.com/0907c96dd9.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,16 +24,26 @@
 				</ul>
 			</nav>
 		</header>
-		<section class="hero">
-			<img src="src/hero.jpeg" alt="Food photo">
-			<div class="slogan">
-				<h1>Here you can type <br> your company slogan </h1>
-			</div>
-			<div class="slideshow">
-				<button>Slideshow</button>
-				<button>Slideshow</button>
-				<button>Slideshow</button>
-			</div>
+		<section id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    		<ol class="carousel-indicators">
+        		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    		</ol>
+    		<div class="carousel-inner" role="listbox">
+        		<div class="item active">
+            		<img src="src/hero1.jpeg">
+        		</div>
+        		<div class="item">
+            		<img src="src/hero2.jpg">
+        		</div>
+        		<div class="item">
+            		<img src="src/hero3.jpg">
+        		</div>
+        		<div class="slogan">
+					<h1>Here you can type <br> your company slogan </h1>
+				</div>
+    		</div>
 		</section>
 		<section class="benefits">
 			<div class="container">
@@ -42,12 +53,12 @@
 						<h4>International experience</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis error magnam dolor numquam provident cupiditate laudantium nulla, itaque facilis</p>
 					</div>
-						<div class="col-4">
+					<div class="col-4">
 						<i class="fa fa-laptop"></i>
 						<h4>Fully customizable</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis error magnam dolor numquam provident cupiditate laudantium nulla, itaque facilis</p>
 					</div>
-						<div class="col-4">
+					<div class="col-4">
 						<i class="fa fa fa-camera"></i>
 						<h4>Professional equipment</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis error magnam dolor numquam provident cupiditate laudantium nulla, itaque facilis</p>
@@ -63,76 +74,76 @@
 		</section>
 		<section class="gallery">
 			<div class="row">
+				<input type="checkbox" name="zoom" id="zoom-1" hidden>
 				<div class="col-2 col-s-4  gallery-item">
 					<img src="src/pic1.jpeg" alt="">
 					<div class="layer">
-						<i class="fa fa-camera-retro fa-lg"></i>
-						<i class="fa fa-search fa-lg"></i>
+						<label for="zoom-1"><i class="fa fa-search fa-lg"></i></label>
 					</div>
 				</div>
+				<input type="checkbox" name="zoom" id="zoom-2" hidden>
 				<div class="col-2 col-s-4 gallery-item">
 					<img src="src/pic6.jpeg" alt="">
 					<div class="layer">
-						<i class="fa fa-camera-retro fa-lg"></i>
-						<i class="fa fa-search fa-lg"></i>
+						<label for="zoom-2"><i class="fa fa-search fa-lg"></i></label>
 					</div>
 				</div>
+				<input type="checkbox" name="zoom" id="zoom-3" hidden>
 				<div class="col-2 col-s-4 gallery-item">
 					<img src="src/pic5.jpeg" alt="">
 					<div class="layer">
-						<i class="fa fa-camera-retro fa-lg"></i>
-						<i class="fa fa-search fa-lg"></i>
+						<label for="zoom-3"><i class="fa fa-search fa-lg"></i></label>
 					</div>
 				</div>
+				<input type="checkbox" name="zoom" id="zoom-4" hidden>
 				<div class="col-2 col-s-4 gallery-item">
 					<img src="src/pic3.jpeg" alt="">
 					<div class="layer">
-						<i class="fa fa-camera-retro fa-lg"></i>
-						<i class="fa fa-search fa-lg"></i>
+						<label for="zoom-4"><i class="fa fa-search fa-lg"></i></label>
 					</div>
 				</div>
+				<input type="checkbox" name="zoom" id="zoom-5" hidden>
 				<div class="col-4 col-s-8 gallery-item">
 					<img src="src/pic4.jpeg" alt="">
 					<div class="layer">
-						<i class="fa fa-camera-retro fa-lg"></i>
-						<i class="fa fa-search fa-lg"></i>
+						<label for="zoom-5"><i class="fa fa-search fa-lg"></i></label>
 					</div>
 				</div>
 			</div>
 			<div class="row">
+				<input type="checkbox" name="zoom" id="zoom-6" hidden>
 				<div class="col-4 col-s-8 gallery-item">
 					<img src="src/pic8.jpeg" alt="">
 					<div class="layer">
-						<i class="fa fa-camera-retro fa-lg"></i>
-						<i class="fa fa-search fa-lg"></i>
+						<label for="zoom-6"><i class="fa fa-search fa-lg"></i></label>
 					</div>
 				</div>
+				<input type="checkbox" name="zoom" id="zoom-7" hidden>
 				<div class="col-2 col-s-4 gallery-item">
 					<img src="src/pic9.jpg" alt="">
 					<div class="layer">
-						<i class="fa fa-camera-retro fa-lg"></i>
-						<i class="fa fa-search fa-lg"></i>
+						<label for="zoom-7"><i class="fa fa-search fa-lg"></i></label>
 					</div>
 				</div>
+				<input type="checkbox" name="zoom" id="zoom-8" hidden>
 				<div class="col-2 col-s-4 gallery-item">
 					<img src="src/pic2.jpeg" alt="">
 					<div class="layer">
-						<i class="fa fa-camera-retro fa-lg"></i>
-						<i class="fa fa-search fa-lg"></i>
+						<label for="zoom-8"><i class="fa fa-search fa-lg"></i></label>
 					</div>
 				</div>
+				<input type="checkbox" name="zoom" id="zoom-9" hidden>
 				<div class="col-2 col-s-4 gallery-item">
 					<img src="src/pic7.jpeg" alt="">
 					<div class="layer">
-						<i class="fa fa-camera-retro fa-lg"></i>
-						<i class="fa fa-search fa-lg"></i>
+						<label for="zoom-9"><i class="fa fa-search fa-lg"></i></label>
 					</div>
 				</div>
+				<input type="checkbox" name="zoom" id="zoom-10" hidden>
 				<div class="col-2 col-s-4 gallery-item">
 					<img src="src/pic10.jpeg" alt="">
 					<div class="layer">
-						<i class="fa fa-camera-retro fa-lg"></i>
-						<i class="fa fa-search fa-lg"></i>
+						<label for="zoom-10"><i class="fa fa-search fa-lg"></i></label>
 					</div>
 				</div>
 			</div>
@@ -143,14 +154,14 @@
 					<div class="col-3 col-m-6">
 						<div class="gallery-item">
 							<img src="src/staff4.jpeg" alt="">
-							<div class="layer">Assistant</div>
+							<div class="layer">Art Director</div>
 						</div>
 						<h4>Marry Collier</h4>
 					</div>
 					<div class="col-3 col-m-6">
 						<div class="gallery-item">
 							<img src="src/staff2.jpeg" alt="">
-							<div class="layer">Director</div>
+							<div class="layer">Assistant</div>
 						</div>
 						<h4>Dexter Gilbert</h4>
 					</div>
@@ -258,6 +269,8 @@
 				<p>Copyrights 2017</p>
 			</div>
 		</section>
-
+		<!-- Scripts -->
+    	<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	</body>
 </html>
