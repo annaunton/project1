@@ -263,7 +263,7 @@ nav input[type="checkbox"] + label {
     content: "";
     display: inline-block;
     height: 1px;
-    width: 50%;
+    width: 30%;
     margin-left: 14px;
     vertical-align: middle; }
 
