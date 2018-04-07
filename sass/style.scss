@@ -3,6 +3,7 @@
 body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
 }
 
 /*===CONTAINER===*/
@@ -21,6 +22,7 @@ section {
 /*===HEADINGS===*/
  h1, h3, h4 {
  	text-transform: uppercase;
+ 	font-weight:700;
  }
 
  /*===CLEARFIX===*/
@@ -167,6 +169,7 @@ nav input[type="checkbox"] + label {
 		}
 		&:hover .layer {
 			opacity: 1;
+
 		}
 		.layer {
 		position: absolute;
