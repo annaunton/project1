@@ -386,7 +386,7 @@ nav input[type="checkbox"] + label {
     color: #ccc;
     opacity: 1; }
   .staff .gallery-item {
-    margin-bottom: 20px; }
+    margin-bottom: 30px; }
 
   .gallery .layer {
     opacity: 1; }
@@ -433,6 +433,9 @@ nav input[type="checkbox"] + label {
 
   .gallery .layer {
     opacity: 0; }
+
+  .footer h3:after {
+    display: none; }
 
   .col-s-0 {
     width: 0; }
